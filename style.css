@@ -1,0 +1,710 @@
+:root {
+    --blue-color: #2000E7;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+    --unit: 1px;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Poppins";
+    src: url(../Промежуточная/font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-weight: 600;
+    font-family: "Poppins";
+    src: url(../Промежуточная/font/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url(../Промежуточная/font/Jost-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url(../Промежуточная/font/Jost-Bold.ttf);
+}
+
+body {
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.shapka {
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shapka .menu-container {
+    height: 117px;
+    margin: 0;
+    padding: 0;
+}
+
+.shapka .logo {
+    width: 251px;
+    height: 72px;
+    margin-top: 45px;
+    margin-left: 78px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+
+    color: #0E0578;
+}
+
+.shapka .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    list-style: none;
+
+    height: 45px;
+    margin: 59px 0px 0px 0px;
+    padding: 0;
+}
+
+.shapka a {
+    height: 45px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+
+    color: #686565;
+}
+
+.shapka a:hover {
+    color: #F2BD00;
+}
+
+.shapka .menu-item {
+    width: 143px;
+    margin-right: 79px;
+}
+
+.front-part {
+    position: relative;
+    width: 1440px;
+    height: 949px;
+    margin: 0;
+    padding: 0;
+}
+
+.front-part .front-part-text-container {
+    position: absolute;
+    top: 201px;
+    left: 78px;
+}
+
+.front-part .front-part-image {
+    position: absolute;
+    width: 564px;
+    height: 564px;
+    top: 140px;
+    left: 772px;
+}
+
+.front-part .front-part-stitle {
+     width: 380px;
+    height: 45px;
+    margin: 0px 0px 5px 0px;
+    left: 78px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: var(--blue-color);
+}
+
+.front-part .front-part-title {
+    width: 447px;
+    height: 144px;
+    margin: 0px 0px 21px 0px;
+    left: 78px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+
+    color: var(--blue-color);
+}
+
+.front-part .front-part-title span {
+    color: #F2BD00;
+}
+
+.front-part .front-part-text {
+    box-sizing: border-box;
+
+    width: 616px;
+    height: 72px;
+    margin: 0px 0px 0px -1px;
+
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #383838;
+}
+
+.front-part .front-part-button {
+    position: absolute;
+    top: 400px;
+}
+
+.front-part .front-part-button * {
+    width: 246px;
+    height: 72px;
+
+    border-radius: 10px;
+
+    box-shadow: 11px 21px 15px rgb(0, 0, 0, 0.25);
+
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.front-part .front-part-button .front-part-button-blue {
+    position: relative;
+    left: 0;
+
+    background-color: var(--blue-color);
+
+    color: var(--white-color);
+}
+
+.front-part .front-part-button .front-part-button-blue:active {
+    background-color: #FFCA00;
+
+    color: var(--black-color);
+}
+
+.front-part .front-part-button .front-part-button-white {
+    position: relative;
+    left: 45px;
+
+    background-color: transparent;
+
+    color: var(--blue-color);
+}
+
+.front-part .front-part-button .front-part-button-white:active {
+    background-color: var(--black-color);
+
+    color: #FFCA00;
+}
+
+.front-part1 {
+    width: 1440px;
+    height: 910px;
+    padding: 0px;
+    margin: 0px;
+
+    background-color: #43BAFD0F;
+}
+
+.front-part1 h1 {
+    position: absolute;
+    width: 370px;
+    height: 72px;
+    padding: 0px;
+    margin: 206px 0px 0px 46px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.35em;
+
+    color: var(--blue-color);
+}
+
+.front-part1 p {
+    position: absolute;
+    width: 415px;
+    height: 303px;
+    padding: 0px;
+    margin: 292px 0px 0px 46px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: var(--black-color);
+}
+
+.front-part1 .front-part-button1 {
+    position: relative;
+    width: 246px;
+    height: 72px;
+    margin: 621px 0px 0px 67px;
+
+    border-radius: 10px;
+
+    box-shadow: 11px 21px 15px rgb(0, 0, 0, 0.25);
+
+    background-color: var(--blue-color);
+
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: var(--white-color);
+}
+
+.front-part1 .front-part-button1:active {
+    background-color: #FFCA00;
+
+    color: var(--black-color)
+}
+
+.front-part1 .front-part-image1 {
+    position: absolute;
+    margin: 0px 0px 0px 185.24px;
+    width: 925px;
+    height: 925px
+}
+
+.middle-part {
+    width: 1440px;
+    height: 910px;
+    padding: 0px;
+    margin: 301px 0px 0px 0px;
+
+    background-color: #FFD69633;
+}
+
+.middle-part h1 {
+    position: relative;
+    width: 395px;
+    height: 72px;
+    margin: 0;
+    padding: 35px 0px 0px 0px;
+    left: 488px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.2em;
+
+    color: #3B1FEA;
+}
+
+.middle-part p {
+    position: relative;
+    width: 591px;
+    height: 36px;
+    margin: 0px 0px 46px 0px;
+    left: 412px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: var(--black-color);
+}
+
+.Projects * {
+    position: absolute;
+}
+
+.Projects .Image30,
+.Projects .Image35,
+.Projects .Image38 {
+    top: 0;
+}
+
+.Projects .Image32,
+.Projects .Image36,
+.Projects .Image39 {
+    top: 240px;
+}
+
+.Projects .Image34,
+.Projects .Image37,
+.Projects .Image40 {
+    top: 472px;
+}
+
+.Projects .Image30,
+.Projects .Image32,
+.Projects .Image34 {
+    left: 108px;
+}
+
+.Projects .Image35,
+.Projects .Image36,
+.Projects .Image37 {
+    left: 540px;
+}
+
+.Projects .Image38,
+.Projects .Image39,
+.Projects .Image40 {
+    left: 1003px;
+}
+
+.lower-part {
+    width: 1440px;
+    height: 1316px;
+    padding: 0px;
+    margin: 269px 0px 0px 0px;
+
+    background-color: #43BAFD0F;
+}
+
+.lower-part h1 {
+    position: relative;
+    width: 555px;
+    height: 96px;
+    margin: 0px 0px 10px 0px;
+    padding: 67px 0px 0px 0px;
+    left: 457px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 0.27em;
+
+    color: var(--blue-color);
+}
+
+.lower-part p {
+    position: relative;
+    width: 591px;
+    height: 36px;
+    margin: 0px 0px 0px 0px;
+    left: 435px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: var(--black-color);
+}
+
+.lower-part .Connection * {
+    position: absolute;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: var(--black-color);
+}
+
+.lower-part #email_form,
+.lower-part #password_form,
+.lower-part #message_form {
+    left: 66px;
+}
+
+.lower-part #email_form {
+    width: 649px;
+    height: 92px;
+    top: 159px;
+
+    border: none;
+
+    box-shadow: 13px 21px 4px rgb(0, 0, 0, 0.25);
+
+    background-color: var(--white-color);
+}
+
+.lower-part #password_form {
+    resize: none;
+    width: 649px;
+    height: 92px;
+    top: 334px;
+
+    border: none;
+
+    box-shadow: 13px 21px 4px rgb(0, 0, 0, 0.25);
+
+    background-color: var(--white-color);
+}
+
+.lower-part #message_form {
+    width: 649px;
+    height: 265px;
+    top: 509px;
+
+    border: none;
+
+    box-shadow: 13px 21px 4px rgb(0, 0, 0, 0.25);
+
+    background-color: var(--white-color);
+}
+
+.lower-part .contact-button {
+    width: 327px;
+    height: 94px;
+    top: 823px;
+    left: 230px;
+
+    border: none;
+
+    background-color: var(--white-color);
+
+    box-shadow: 13px 21px 4px rgb(0, 0, 0, 0.25);
+}
+
+.lower-part .contact-button:active {
+    background-color: var(--black-color);
+
+    color: var(--white-color);
+}
+
+.lower-part .Laptop {
+    top: -22px;
+    left: 584px;
+}
+
+.kolontitul {
+    width: 1440px;
+    height: 809px;
+    padding: 0px;
+    margin: 208px 0px 0px 0px;
+
+    background-color: #FFD69633;
+}
+
+.kolontitul .shapka {
+    position: relative;
+    width: 1440px;
+    height: 72px;
+    top: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kolontitul .shapka .menu-container {
+    height: 72px;
+    margin: 0;
+    padding: 0;
+}
+
+.kolontitul .shapka .logo {
+    width: 386px;
+    height: 72px;
+    margin: 5px 0px 0px 73px;
+    padding: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.35em;
+
+    color: #0E0578;
+}
+
+.kolontitul .shapka .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    list-style: none;
+
+    height: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+.kolontitul .shapka .menu-item1,
+.kolontitul .shapka .menu-item2,
+.kolontitul .shapka .menu-item3 {
+    height: 47px;
+
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 44.8px;
+
+    color: var(--black-color);
+}
+
+.kolontitul .shapka .menu-item1 {
+    width: 157px;
+    margin: 0px 107px 0px 0px;
+}
+
+.kolontitul .shapka .menu-item2 {
+    width: 90px;
+    margin: 5px 200px 0px 0px;
+}
+
+.kolontitul .shapka .menu-item3 {
+    width: 142px;
+    margin: 5px 174px 0px 0px; 
+}
+
+.telo {
+    position: relative;
+    width: 1440px;
+    height: 325px;
+    top: 132px;
+    padding: 0;
+    margin: 0px 0px 100px 0px;
+}
+
+.telo * { 
+    position: absolute;
+}
+
+.telo .subscribe * {
+    top: 25px;
+
+    font-family: "Jost", sans-serif;
+    font-size: 31px;
+    line-height: 44.8px;
+
+    color: var(--white-color);
+}
+
+.telo #email_form1 {
+    width: 323px;
+    height: 97px;
+    left: 26px;
+
+    border-radius: 30px;
+    border: none;
+
+    background-color: var(--black-color);
+
+    color: var(--white-color);
+}
+
+.telo .subscribe-button {
+    width: 178px;
+    height: 99px;
+    left: 288px;
+    margin: 50px 0px 0px 0px;
+
+    border-radius: 30px;
+    border: none;
+
+    background-color: #F965FC;
+
+    color: var(--white-color);
+}
+
+.telo .subscribe-button:active {
+    background-color: #E6FF65;
+
+    color: var(--black-color);
+}
+
+.telo .Platform,
+.telo .Help,
+.telo .Contact {
+    font-family: "Jost", sans-serif;
+    font-size: 31px;
+    line-height: 44.8px;
+    font-weight: 400;
+
+    color: var(--black-color);
+}
+
+.telo ul {
+    margin: 0;
+    padding: 0;
+    top: -40px;
+
+    list-style: none;
+}
+
+.telo li {
+    position: relative;
+    margin: 45px 0px 0px 0px;
+}
+
+.telo .Platform ul {
+    width: 160px;
+    height: 366px;
+    left: 570px;
+    margin: 0;
+    padding: 0;
+}
+
+.telo .Help ul {
+    width: 200px;
+    height: 366px;
+    left: 834px;
+    margin: 0;
+    padding: 0;
+}
+
+.telo .Contact {
+    left: 1128px;
+}
+
+.telo .Contact span {
+    width: 250px;
+    height: 47px;
+    top: -8px;
+    margin: 0;
+    padding: 0;
+}
+
+.telo .Contact p {
+    width: 311px;
+    height: 188px;
+    top: 65px;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    position: relative;
+    top: 130px;
+    align-items: center;
+    width: 1334px;
+
+    color: var(--black-color);
+}
+
+.Signature {
+    position: relative;
+    width: 1440px;
+    height: 46px;
+    top: 170px;
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.Signature .CopyRighted {
+    width: 640px;
+    height: 46px;
+    margin: 0px 0px 0px 46px;
+    padding: 0;
+
+    font-family: "Jost", sans-serif;
+    font-size: 32px;
+    line-height: 46.24px;
+
+    color: var(--black-color);
+}
