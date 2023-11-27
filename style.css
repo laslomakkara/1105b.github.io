@@ -612,7 +612,7 @@ body {
 }
 
 .telo .subscribe-button:active {
-    background-color: #E6FF65;
+    background-color: #BA65FF;
 
     color: var(--black-color);
 }
